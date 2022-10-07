@@ -14,7 +14,7 @@ int main()
     ptr= &std;                  
      
     printf("Enter details of student: ");
-    printf("\nName ?:");        gets(ptr->name);
+    printf("\nName ?:");        scanf("%s",&ptr->name);
     printf("Roll No ?:");       scanf("%d",&ptr->roll);
     printf("Percentage ?:");    scanf("%f",&ptr->perc);
      
